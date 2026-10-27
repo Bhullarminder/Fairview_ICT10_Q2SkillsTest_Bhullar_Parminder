@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ICT Club Membership</title>
+    <title>Skills test</title>
 
     <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
     <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
@@ -20,25 +20,25 @@
     </div>
 </nav>
 
-<div class="container bg-light p-4 mt-5 w-50 rounded shadow">
+<div class="container bg-dark p-4 mt-5 w-50 rounded shadow">
 
-    <h3 class="text-center">NON METALS</h3>
+    <h3 class="text-center, text-white">NON METALS</h3>
 
-    <p class="text-center">
-        Enter an element to find out whether it is a nonmetal or not
+    <p class="text-center, text-white">
+        Enter an element symbol to find out whether it is a nonmetal or not
     </p>
 
-    <div class="mb-3">
+    <div class="mb-3, text-white">
         <label for="Element" class="form-label">Element</label>
-        <input type="text" id="Element" class="form-control" placeholder="Enter first name">
+        <input type="text" id="Element" class="form-control" placeholder="Enter Element Symbol">
     </div>
 
 
-    <button py-click="check_member" class="btn btn-primary w-100">
+    <button py-click="elements" class="btn btn-primary w-100">
         Check
     </button>
 
-    <div id="result" class="mt-4"></div>
+    <div id="result" class="mt-4, text-white"></div>
 
 </div>
 
